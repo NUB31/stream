@@ -4,6 +4,8 @@ This is a collection of the microservices that makes up the "stream" program.
 
 ## stream_connector
 
+https://github.com/NUB31/stream_connector
+
 The stream_connector repository is the main server. This is a socket.io server which will handle messages coming in from other microservices.
 
 ### Example:
@@ -17,6 +19,8 @@ This is the only servioce that has to be running. The rest of the services is op
 
 ## stream_musicbot
 
+https://github.com/NUB31/stream_musicbot
+
 The stream_musicbot repository is a microservice for playing music/video through ffplay.
 
 ### Dependencies:
@@ -26,6 +30,8 @@ The stream_musicbot repository is a microservice for playing music/video through
 
 ## stream_twitch_connector
 
+https://github.com/NUB31/stream_twitch_chat_connector
+
 The stream_twitch_connector repository is a microsservice that connects to twitch chat. It can send messages and recieve commands that can interact with the musicbot.
 
 ### Dependencies:
@@ -34,6 +40,8 @@ The stream_twitch_connector repository is a microsservice that connects to twitc
 
 ## stream_youtube_connector
 
+https://github.com/NUB31/stream_youtube_chat_connector
+
 The stream_youtube_connector repository is a microsservice that connects to youtube chat. It can recieve commands that can interact with the musicbot.
 
 ### Dependencies:
@@ -41,6 +49,8 @@ The stream_youtube_connector repository is a microsservice that connects to yout
 - stream_connector
 
 ## stream_chat_json
+
+https://github.com/NUB31/stream_chat_json
 
 The stream_chat_json repository is a html chat that will display chat messages in a json format. Can be easily used in OBS
 
